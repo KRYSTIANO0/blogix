@@ -1,0 +1,42 @@
+.able-comment {
+	textarea {
+		resize: none;
+		border-radius: 14px;
+		width: 100%;
+		padding: 1rem;
+		border: solid 2px rgba(0, 0, 0, 0.26);
+		&:focus {
+			border: solid 2px rgba(0, 0, 0, 0.96);
+			background: hsl(228, 33%, 97%);
+		}
+	}
+	.container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		h1 {
+			color: hsl(212, 24%, 26%);
+		}
+		.send-btn {
+			background-color: hsl(238, 40%, 52%);
+		}
+		.avatar-img {
+			border-radius: 50%;
+			width: 5rem;
+		}
+	}
+}
+
+.disable-comment {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: hsl(357, 100%, 86%);
+	.log-in-btn {
+		background-color: rgba(0, 250, 0, 0.46);
+		&:hover {
+			background-color: rgba(0, 250, 0, 0.26);
+		}
+	}
+}

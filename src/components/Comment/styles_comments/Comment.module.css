@@ -1,0 +1,60 @@
+.comment p {
+  color: #67727e;
+  font-size: 1.5rem;
+}
+
+.comment .author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.comment .author img {
+  width: 3.5rem;
+}
+
+.comment .author h1 {
+  font-size: 1.4rem;
+  color: #324152;
+  margin: 1rem;
+}
+
+.comment .author h2 {
+  padding: 0.2rem 1rem;
+  background-color: #5457b6;
+  color: white;
+  border-radius: 7px;
+  margin-right: 1rem;
+  font-weight: normal;
+}
+
+.comment .author .delete-reply-btn {
+  color: #ed6468;
+  margin-left: 2rem;
+}
+
+.comment .author .delete-reply-btn:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.comment .content {
+  text-align: justify;
+  text-justify: inter-word;
+  margin: 1.5rem 0;
+}
+
+.comment .show-replys-btn {
+  color: #acadec;
+}
+
+.comment .show-replys-btn:hover {
+  color: #5457b6;
+  cursor: pointer;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=Comment.module.css.map */

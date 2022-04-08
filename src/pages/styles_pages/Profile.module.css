@@ -1,0 +1,47 @@
+.profile {
+  text-align: center;
+  padding-top: 15rem;
+}
+
+.profile svg {
+  font-size: 8rem;
+  margin: 2rem 0;
+}
+
+.profile h1 {
+  font-size: 1.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #324152;
+  margin: 0.5rem 0;
+}
+
+.profile h1 p {
+  font-size: 1.4rem;
+  color: #67727e;
+}
+
+.profile .sign-in-btn {
+  background-color: rgba(0, 250, 0, 0.46);
+}
+
+.profile .sign-in-btn:hover {
+  background-color: rgba(0, 250, 0, 0.26);
+}
+
+.profile .avatar-btn {
+  background-color: #6668f5;
+  margin: 1rem 0;
+}
+
+.profile .avatar-btn:hover {
+  background-color: #5254eb;
+}
+/*# sourceMappingURL=Profile.module.css.map */

@@ -1,0 +1,34 @@
+.profile {
+	text-align: center;
+	padding-top: 15rem;
+	svg {
+		font-size: 8rem;
+		margin: 2rem 0;
+	}
+	h1 {
+		font-size: 1.8rem;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		color: hsl(212, 24%, 26%);
+		margin: 0.5rem 0;
+		p {
+			font-size: 1.4rem;
+			color: hsl(211, 10%, 45%);
+		}
+	}
+	.sign-in-btn {
+		background-color: rgba(0, 250, 0, 0.46);
+
+		&:hover {
+			background-color: rgba(0, 250, 0, 0.26);
+		}
+	}
+	.avatar-btn {
+		background-color: hsl(239, 88%, 68%);
+		margin: 1rem 0;
+		&:hover {
+			background-color: hsl(239, 79%, 62%);
+		}
+	}
+}

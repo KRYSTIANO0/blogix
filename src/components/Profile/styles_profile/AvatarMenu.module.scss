@@ -1,0 +1,30 @@
+.avatar-menu {
+	header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.active {
+		transform: scale(1.2);
+	}
+	.avatars {
+		text-align: center;
+		margin: 1.4rem 0;
+	}
+	.buttons {
+		display: flex;
+		justify-content: space-between;
+		.reset-btn {
+			background-color: hsl(358, 79%, 66%);
+			&:hover {
+				background-color: hsl(358, 78%, 57%);
+			}
+		}
+		.choose-btn {
+			background-color: hsl(238, 40%, 52%);
+			&:hover {
+				background-color: hsl(238, 60%, 39%);
+			}
+		}
+	}
+}

@@ -1,0 +1,54 @@
+.comment-movement {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	h2 {
+		color: hsl(238, 40%, 52%);
+		font-size: 1.6rem;
+		display: flex;
+		align-items: center;
+		svg {
+			margin-right: 0.6rem;
+		}
+	}
+	button {
+		&:hover {
+			cursor: pointer;
+			opacity: 1 !important;
+			transform: scale(1.2);
+		}
+	}
+	.score {
+		display: flex;
+		align-items: center;
+		background-color: hsl(223, 19%, 93%);
+		padding: 1rem;
+		border-radius: 8px;
+		button {
+			color: hsl(239, 57%, 85%);
+			font-size: 2rem;
+			opacity: 0.5;
+			svg {
+				&:hover {
+					opacity: 1;
+				}
+			}
+		}
+		h2 {
+			margin: 0 1.2rem;
+		}
+		.active {
+			opacity: 1 !important;
+		}
+	}
+	.reply {
+		button {
+			margin-left: 2rem;
+			&.delete-button {
+				h2 {
+					color: hsl(358, 79%, 66%);
+				}
+			}
+		}
+	}
+}

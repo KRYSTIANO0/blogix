@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACX,KAAK,EAAE,GAAG;EACV,WAAW,EAAE,EAAE;CACf",
+    "sources": [
+        "Replys.module.scss"
+    ],
+    "names": [],
+    "file": "Replys.module.css"
+}

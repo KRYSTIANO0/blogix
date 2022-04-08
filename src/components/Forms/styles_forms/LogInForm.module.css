@@ -1,0 +1,69 @@
+.log-in-form {
+  padding: 1rem 0;
+}
+
+.log-in-form .box {
+  padding: 0.5rem 0;
+  margin: 1rem 0;
+  border-bottom: solid 2px rgba(0, 0, 0, 0.26);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.26);
+}
+
+.log-in-form .box input {
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.log-in-form .box.isValid {
+  color: rgba(0, 0, 0, 0.9);
+  border-bottom: solid 2px rgba(0, 0, 0, 0.9);
+}
+
+.log-in-form .box.isInValid {
+  color: rgba(250, 0, 0, 0.76);
+  border-bottom: solid 2px rgba(250, 0, 0, 0.76);
+}
+
+.log-in-form .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.log-in-form .buttons .log-in-btn {
+  background-color: rgba(0, 0, 0, 0.26);
+  cursor: default;
+}
+
+.log-in-form .buttons .log-in-btn.active {
+  background-color: rgba(0, 250, 0, 0.56);
+}
+
+.log-in-form .buttons .log-in-btn.active:hover {
+  cursor: pointer;
+  background-color: rgba(0, 250, 0, 0.96);
+}
+
+.log-in-form .buttons .new-acc-btn {
+  background-color: #5457b6;
+}
+
+.log-in-form .buttons .new-acc-btn:hover {
+  background-color: #3e418e;
+}
+
+.log-in-form p {
+  margin: 1rem 0;
+  color: red;
+}
+/*# sourceMappingURL=LogInForm.module.css.map */

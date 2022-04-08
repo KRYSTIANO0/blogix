@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Modak&display=swap");
+.header {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2rem;
+  background-color: #5457b6;
+  color: white;
+  font-family: 'Modak', cursive;
+}
+
+.header .logo {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.header .navigation .menu-btn {
+  font-size: 3rem;
+  color: black;
+}
+
+.header .navigation .menu-btn:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  cursor: pointer;
+}
+
+.header .menu {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3%;
+  right: 5rem;
+}
+
+.header .menu .menu-item {
+  display: block;
+  color: white;
+  font-size: 2rem;
+}
+
+.header .menu .menu-item:hover {
+  color: black;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.header .menu .sign-in-btn {
+  margin-right: 2rem;
+  background-color: rgba(0, 250, 0, 0.46);
+}
+
+.header .menu .sign-in-btn:hover {
+  background-color: rgba(0, 250, 0, 0.26);
+}
+
+.header .menu .log-out-btn {
+  margin-right: 2rem;
+  background-color: rgba(250, 0, 0, 0.46);
+}
+
+.header .menu .log-out-btn:hover {
+  background-color: rgba(250, 0, 0, 0.26);
+}
+/*# sourceMappingURL=Header.module.css.map */

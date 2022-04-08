@@ -1,0 +1,23 @@
+.log-in header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 2rem;
+}
+
+.log-in header svg {
+  color: #ed6468;
+  font-size: 3rem;
+}
+
+.log-in header svg:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+/*# sourceMappingURL=LogIn.module.css.map */

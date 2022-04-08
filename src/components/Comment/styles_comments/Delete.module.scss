@@ -1,0 +1,35 @@
+.delete-modal {
+	.padding {
+		padding: 2rem;
+
+		p {
+			color: hsl(211, 10%, 45%);
+			font-size: 1.8rem;
+			line-height: 1.8rem;
+			margin: 1.4rem 0;
+		}
+		h1 {
+			color: hsl(212, 24%, 26%);
+			font-size: 2.5rem;
+		}
+		.buttons {
+			color: white;
+			text-transform: uppercase;
+			display: flex;
+			justify-content: space-between;
+			.cancel-btn {
+				font-weight: normal;
+				background-color: hsl(211, 10%, 45%);
+				letter-spacing: 0.1rem;
+				font-size: 1.5rem;
+				padding: 1.5rem;
+			}
+			.delete-btn {
+				letter-spacing: 0.1rem;
+				font-size: 1.5rem;
+				font-weight: normal;
+				background-color: hsl(358, 79%, 66%);
+			}
+		}
+	}
+}

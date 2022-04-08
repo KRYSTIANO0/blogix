@@ -1,0 +1,13 @@
+.ui-button {
+	padding: 1rem;
+	text-align: center;
+	border-radius: 6px;
+	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.26);
+	text-transform: uppercase;
+	color: white;
+	font-weight: 700;
+	font-family: 'Rubik', sans-serif;
+	&:hover {
+		cursor: pointer;
+	}
+}

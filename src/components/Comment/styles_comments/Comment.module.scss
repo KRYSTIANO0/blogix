@@ -1,0 +1,50 @@
+.comment {
+	p {
+		color: hsl(211, 10%, 45%);
+		font-size: 1.5rem;
+	}
+	.author {
+		display: flex;
+		align-items: center;
+		img {
+			width: 3.5rem;
+		}
+		h1 {
+			font-size: 1.4rem;
+			color: hsl(212, 24%, 26%);
+			margin: 1rem;
+		}
+		h2 {
+			padding: 0.2rem 1rem;
+			background-color: hsl(238, 40%, 52%);
+			color: white;
+			border-radius: 7px;
+			margin-right: 1rem;
+			font-weight: normal;
+		}
+		.delete-reply-btn {
+			color: hsl(358, 79%, 66%);
+			margin-left: 2rem;
+			&:hover {
+				cursor: pointer;
+				transform: scale(1.2);
+			}
+		}
+	}
+	.content {
+		text-align: justify;
+		text-justify: inter-word;
+		margin: 1.5rem 0;
+	}
+	.show-replys-btn {
+		color: hsl(239, 63%, 80%);
+		&:hover {
+			color: hsl(238, 40%, 52%);
+			cursor: pointer;
+			text-decoration: underline;
+		}
+	}
+}
+
+// color:hsl(239, 57%, 85%);
+// color: hsl(223, 19%, 93%);

@@ -1,0 +1,72 @@
+.comment-movement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.comment-movement h2 {
+  color: #5457b6;
+  font-size: 1.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.comment-movement h2 svg {
+  margin-right: 0.6rem;
+}
+
+.comment-movement button:hover {
+  cursor: pointer;
+  opacity: 1 !important;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.comment-movement .score {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #eaecf1;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.comment-movement .score button {
+  color: #c3c4ef;
+  font-size: 2rem;
+  opacity: 0.5;
+}
+
+.comment-movement .score button svg:hover {
+  opacity: 1;
+}
+
+.comment-movement .score h2 {
+  margin: 0 1.2rem;
+}
+
+.comment-movement .score .active {
+  opacity: 1 !important;
+}
+
+.comment-movement .reply button {
+  margin-left: 2rem;
+}
+
+.comment-movement .reply button.delete-button h2 {
+  color: #ed6468;
+}
+/*# sourceMappingURL=CommentMovement.module.css.map */

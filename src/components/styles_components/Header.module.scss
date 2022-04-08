@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+.header {
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2rem;
+	background-color: hsl(238, 40%, 52%);
+	color: white;
+	font-family: 'Modak', cursive;
+	.logo {
+		text-transform: uppercase;
+		font-size: 3rem;
+	}
+	.navigation {
+		.menu-btn {
+			font-size: 3rem;
+			color: black;
+
+			&:hover {
+				transform: scale(1.2);
+				cursor: pointer;
+			}
+		}
+	}
+	.menu {
+		position: absolute;
+		display: flex;
+		align-items: center;
+		padding: 3%;
+		right: 5rem;
+
+		.menu-item {
+			display: block;
+			color: white;
+			font-size: 2rem;
+
+			&:hover {
+				color: black;
+				transform: scale(1.2);
+			}
+		}
+		.sign-in-btn {
+			margin-right: 2rem;
+			background-color: rgba(0, 250, 0, 0.46);
+			&:hover {
+				background-color: rgba(0, 250, 0, 0.26);
+			}
+		}
+		.log-out-btn {
+			margin-right: 2rem;
+			background-color: rgba(250, 0, 0, 0.46);
+			&:hover {
+				background-color: rgba(250, 0, 0, 0.26);
+			}
+		}
+	}
+}
